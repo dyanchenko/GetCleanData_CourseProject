@@ -219,5 +219,5 @@ for(i in 1:N){
 }
 
 # Writing the final tiny data set into file
-write.table(tiny_data, "tiny_data.txt")
+write.table(tiny_data, "tiny_data.txt", row.names = FALSE)
 ```
